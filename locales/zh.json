@@ -1,0 +1,50 @@
+
+{
+  "header": {
+    "slogan": "移动，思考，玩中学！"
+  },
+  "app": {
+    "loading": "加载中...",
+    "error_load_levels": "加载关卡失败。请重试。",
+    "error_parse_json": "解析JSON文件失败。",
+    "error_invalid_json": "无效的JSON格式。请上传一个关卡数组。",
+    "no_levels_loaded": "未加载任何关卡！",
+    "no_levels_prompt": "尝试上传自定义关卡文件。",
+    "load_custom_levels": "加载自定义关卡 (JSON)"
+  },
+  "controls": {
+    "sequence_placeholder": "构建您的命令序列！",
+    "commands_label": "命令"
+  },
+  "level_navigator": {
+    "level": "关卡"
+  },
+  "modal": {
+    "success_title": "做得好！",
+    "success_subtitle": "准备好迎接下一个挑战了吗？",
+    "success_button": "下一关",
+    "error_title": "哎呀！",
+    "error_subtitle": "不太对。别担心，再试一次！",
+    "error_solution_prompt": "下次我们试试给你看解决方案！",
+    "error_button": "再试一次",
+    "solution_title": "这是一个提示！",
+    "solution_subtitle": "尝试遵循以下序列：",
+    "solution_button": "开始吧！",
+    "help_title": "怎么玩",
+    "help_step1": "<strong>1. 看棋盘：</strong>找到你的棋子和带有闪烁圆圈的目标棋子。",
+    "help_step2": "<strong>2. 使用箭头：</strong>点击彩色箭头按钮为你的棋子构建路径。",
+    "help_step3": "<strong>3. 按下绿旗：</strong>准备好后，按下绿旗观看你的棋子移动！",
+    "help_step4": "<strong>4. 到达目标：</strong>你的目标是降落在与目标棋子相同的方格上。",
+    "help_button": "知道了！"
+  },
+  "languages": {
+    "it": "Italiano",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "uk": "Українська",
+    "zh": "中文 (简体)",
+    "fa": "Dari (Afghan)"
+  }
+}

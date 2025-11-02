@@ -1,0 +1,50 @@
+
+{
+  "header": {
+    "slogan": "Bouge, pense, apprends en jouant !"
+  },
+  "app": {
+    "loading": "Chargement...",
+    "error_load_levels": "Échec du chargement des niveaux. Veuillez réessayer.",
+    "error_parse_json": "Échec de l'analyse du fichier JSON.",
+    "error_invalid_json": "Format JSON invalide. Veuillez télécharger un tableau de niveaux.",
+    "no_levels_loaded": "Aucun niveau chargé !",
+    "no_levels_prompt": "Essayez de télécharger un fichier de niveaux personnalisé.",
+    "load_custom_levels": "Charger des Niveaux Personnalisés (JSON)"
+  },
+  "controls": {
+    "sequence_placeholder": "Construisez votre séquence de commandes !",
+    "commands_label": "Commandes"
+  },
+  "level_navigator": {
+    "level": "NIVEAU"
+  },
+  "modal": {
+    "success_title": "Bien Joué !",
+    "success_subtitle": "Prêt pour le prochain défi ?",
+    "success_button": "Niveau Suivant",
+    "error_title": "Oups !",
+    "error_subtitle": "Ce n'est pas tout à fait ça. Ne vous inquiétez pas, essayez encore !",
+    "error_solution_prompt": "La prochaine fois, nous essaierons de vous montrer la solution !",
+    "error_button": "Réessayer",
+    "solution_title": "Voici un Indice !",
+    "solution_subtitle": "Essayez de suivre cette séquence :",
+    "solution_button": "Allons-y !",
+    "help_title": "Comment Jouer",
+    "help_step1": "<strong>1. Regardez l'Échiquier :</strong> Trouvez votre pièce et la pièce cible avec le cercle clignotant.",
+    "help_step2": "<strong>2. Utilisez les Flèches :</strong> Cliquez sur les boutons fléchés colorés pour construire un chemin pour votre pièce.",
+    "help_step3": "<strong>3. Appuyez sur le Drapeau Vert :</strong> Lorsque vous êtes prêt, appuyez sur le drapeau vert pour voir votre pièce bouger !",
+    "help_step4": "<strong>4. Atteignez la Cible :</strong> Votre but est d'atterrir sur la même case que la pièce cible.",
+    "help_button": "Compris !"
+  },
+  "languages": {
+    "it": "Italiano",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "uk": "Українська",
+    "zh": "中文 (简体)",
+    "fa": "Dari (Afghan)"
+  }
+}

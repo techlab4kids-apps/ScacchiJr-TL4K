@@ -1,0 +1,78 @@
+{
+  "basic": [
+    {
+      "livello": 1,
+      "pezzoDaMuovere": "torre",
+      "posizioneIniziale": { "x": 0, "y": 0 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 1, "y": 0 },
+      "maxComandi": 6,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 2,
+      "pezzoDaMuovere": "torre",
+      "posizioneIniziale": { "x": 2, "y": 2 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 4, "y": 2 },
+      "maxComandi": 5,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 3,
+      "pezzoDaMuovere": "regina",
+      "posizioneIniziale": { "x": 0, "y": 7 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 4, "y": 7 },
+      "maxComandi": 6,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 4,
+      "pezzoDaMuovere": "torre",
+      "posizioneIniziale": { "x": 7, "y": 3 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 3, "y": 3 },
+      "maxComandi": 6,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 5,
+      "pezzoDaMuovere": "regina",
+      "posizioneIniziale": { "x": 7, "y": 3 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 7, "y": 6 },
+      "maxComandi": 6,
+      "maxTentativi": 3
+    }
+  ],
+  "advanced": [
+    {
+      "livello": 1,
+      "pezzoDaMuovere": "torre",
+      "posizioneIniziale": { "x": 1, "y": 1 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 1, "y": 4 },
+      "maxComandi": 10,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 2,
+      "pezzoDaMuovere": "torre",
+      "posizioneIniziale": { "x": 2, "y": 2 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 5, "y": 5 },
+      "maxComandi": 10,
+      "maxTentativi": 3
+    },
+    {
+      "livello": 3,
+      "pezzoDaMuovere": "regina",
+      "posizioneIniziale": { "x": 6, "y": 1 },
+      "pezzoBersaglio": "pedone",
+      "posizioneBersaglio": { "x": 2, "y": 5 },
+      "maxComandi": 12,
+      "maxTentativi": 3
+    }
+  ]
+}

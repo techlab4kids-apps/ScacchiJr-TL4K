@@ -1,0 +1,57 @@
+{
+  "header": {
+    "slogan": "Muovi, pensa, impara giocando!"
+  },
+  "app": {
+    "loading": "Caricamento...",
+    "error_load_levels": "Impossibile caricare i livelli. Per favore, riprova.",
+    "error_parse_json": "Impossibile analizzare il file JSON.",
+    "error_invalid_json": "Formato JSON non valido. Carica un file di livelli valido.",
+    "no_levels_loaded": "Nessun livello caricato!",
+    "no_levels_prompt": "Prova a caricare un file di livelli personalizzato.",
+    "load_custom_levels": "Carica Livelli Personalizzati (JSON)"
+  },
+  "controls": {
+    "sequence_placeholder": "Trascina i comandi qui!",
+    "commands_label": "Comandi",
+    "move_label": "Mossa",
+    "add_move": "Aggiungi Mossa"
+  },
+  "level_navigator": {
+    "level": "LIVELLO"
+  },
+  "game_mode": {
+    "basic": "Base",
+    "advanced": "Avanzato"
+  },
+  "modal": {
+    "success_title": "Ben Fatto!",
+    "success_subtitle": "Pronto per la prossima sfida?",
+    "success_button": "Prossimo Livello",
+    "error_title": "Oops!",
+    "error_subtitle": "Non è del tutto corretto. Non preoccuparti, riprova!",
+    "error_solution_prompt": "La prossima volta ti mostreremo la soluzione!",
+    "error_button": "Riprova",
+    "invalid_move_title": "Mossa Mista!",
+    "invalid_move_subtitle": "In una singola mossa, puoi usare solo frecce che vanno nella stessa direzione (o solo orizzontali o solo verticali).",
+    "solution_title": "Ecco un Suggerimento!",
+    "solution_subtitle": "Prova a seguire questa sequenza:",
+    "solution_button": "Andiamo!",
+    "help_title": "Come si Gioca",
+    "help_step1": "<strong>1. Guarda la Scacchiera:</strong> Trova il tuo pezzo e il pezzo bersaglio con il cerchio lampeggiante.",
+    "help_step2": "<strong>2. Usa le Frecce:</strong> Clicca sui pulsanti freccia colorati per costruire un percorso per il tuo pezzo.",
+    "help_step3": "<strong>3. Premi la Bandiera Verde:</strong> Quando sei pronto, premi la bandiera verde per vedere il tuo pezzo muoversi!",
+    "help_step4": "<strong>4. Raggiungi il Bersaglio:</strong> Il tuo obiettivo è atterrare sulla stessa casella del pezzo bersaglio.",
+    "help_button": "Capito!"
+  },
+  "languages": {
+    "it": "Italiano",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "uk": "Українська",
+    "zh": "中文 (简体)",
+    "fa": "دری (Afghan)"
+  }
+}
