@@ -1,0 +1,50 @@
+
+{
+  "header": {
+    "slogan": "¡Mueve, piensa, aprende jugando!"
+  },
+  "app": {
+    "loading": "Cargando...",
+    "error_load_levels": "Error al cargar los niveles. Por favor, inténtalo de nuevo.",
+    "error_parse_json": "Error al analizar el archivo JSON.",
+    "error_invalid_json": "Formato JSON no válido. Por favor, sube un array de niveles.",
+    "no_levels_loaded": "¡No se han cargado niveles!",
+    "no_levels_prompt": "Intenta subir un archivo de niveles personalizado.",
+    "load_custom_levels": "Cargar Niveles Personalizados (JSON)"
+  },
+  "controls": {
+    "sequence_placeholder": "¡Construye tu secuencia de comandos!",
+    "commands_label": "Comandos"
+  },
+  "level_navigator": {
+    "level": "NIVEL"
+  },
+  "modal": {
+    "success_title": "¡Bien Hecho!",
+    "success_subtitle": "¿Listo para el próximo desafío?",
+    "success_button": "Siguiente Nivel",
+    "error_title": "¡Oops!",
+    "error_subtitle": "Eso no es del todo correcto. No te preocupes, ¡inténtalo de nuevo!",
+    "error_solution_prompt": "¡La próxima vez intentaremos mostrarte la solución!",
+    "error_button": "Intentar de Nuevo",
+    "solution_title": "¡Aquí tienes una Pista!",
+    "solution_subtitle": "Intenta seguir esta secuencia:",
+    "solution_button": "¡Vamos!",
+    "help_title": "Cómo Jugar",
+    "help_step1": "<strong>1. Mira el Tablero:</strong> Encuentra tu pieza y la pieza objetivo con el círculo parpadeante.",
+    "help_step2": "<strong>2. Usa las Flechas:</strong> Haz clic en los botones de flecha de colores para construir un camino para tu pieza.",
+    "help_step3": "<strong>3. Presiona la Bandera Verde:</strong> Cuando estés listo, ¡presiona la bandera verde para ver mover tu pieza!",
+    "help_step4": "<strong>4. Alcanza el Objetivo:</strong> Tu meta es aterrizar en la misma casilla que la pieza objetivo.",
+    "help_button": "¡Entendido!"
+  },
+  "languages": {
+    "it": "Italiano",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "uk": "Українська",
+    "zh": "中文 (简体)",
+    "fa": "Dari (Afghan)"
+  }
+}

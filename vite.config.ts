@@ -9,6 +9,23 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
+      base: './', // Imposta il percorso base relativo per il deployment
+      build: {
+        outDir: 'dist',
+        assetsDir: 'assets',
+        copyPublicDir: true, // Assicura che la cartella public (con locales e config.json) venga copiata
+        // Imposta il percorso base per il deployment
+        rollupOptions: {
+          output: {
+            assetFileNames: (assetInfo) => {
+              if (assetInfo.name.endsWith('.css')) {
+                return 'css/[name][extname]';
+              }
+              return 'assets/[name][extname]';
+            }
+          }
+        }
+      },
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),

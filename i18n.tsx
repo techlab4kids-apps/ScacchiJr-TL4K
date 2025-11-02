@@ -24,18 +24,17 @@ interface I18nContextType {
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
 const getInitialLang = (): string => {
-    const browserLang = navigator.language.split('-')[0];
-    return LANGUAGES.some(l => l.code === browserLang) ? browserLang : 'it';
+    return 'it'; // Imposta sempre l'italiano come lingua predefinita
 }
 
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [lang, setLang] = useState<string>(getInitialLang);
   const [translations, setTranslations] = useState<Record<string, Translations> | null>(null);
-  
+
   useEffect(() => {
     const loadAllTranslations = async () => {
         try {
-            const promises = LANG_CODES.map(code => 
+            const promises = LANG_CODES.map(code =>
                 fetch(`./locales/${code}.json`).then(res => {
                     if (!res.ok) {
                         throw new Error(`Failed to fetch ${code}.json`);
@@ -56,7 +55,7 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
     loadAllTranslations();
   }, []);
-  
+
   const dir = LANGUAGES.find(l => l.code === lang)?.dir || 'ltr';
 
   useEffect(() => {
@@ -68,7 +67,7 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
     if (!translations) return key;
 
     const keys = key.split('.');
-    
+
     const findTranslation = (language: string) => {
         let result: any = translations[language];
         if (!result) return undefined;

@@ -1,0 +1,57 @@
+{
+  "header": {
+    "slogan": "Move, think, learn by playing!"
+  },
+  "app": {
+    "loading": "Loading...",
+    "error_load_levels": "Failed to load levels. Please try again.",
+    "error_parse_json": "Failed to parse JSON file.",
+    "error_invalid_json": "Invalid JSON format. Please upload a valid level file.",
+    "no_levels_loaded": "No levels loaded!",
+    "no_levels_prompt": "Try uploading a custom level file.",
+    "load_custom_levels": "Load Custom Levels (JSON)"
+  },
+  "controls": {
+    "sequence_placeholder": "Drag commands here!",
+    "commands_label": "Commands",
+    "move_label": "Move",
+    "add_move": "Add Move"
+  },
+  "level_navigator": {
+    "level": "LEVEL"
+  },
+  "game_mode": {
+    "basic": "Basic",
+    "advanced": "Advanced"
+  },
+  "modal": {
+    "success_title": "Well Done!",
+    "success_subtitle": "Ready for the next challenge?",
+    "success_button": "Next Level",
+    "error_title": "Oops!",
+    "error_subtitle": "That's not quite right. Don't worry, give it another go!",
+    "error_solution_prompt": "Let's try showing you the solution next!",
+    "error_button": "Try Again",
+    "invalid_move_title": "Mixed Move!",
+    "invalid_move_subtitle": "In a single move, you can only use arrows that go in the same direction (either only horizontal or only vertical).",
+    "solution_title": "Here's a Hint!",
+    "solution_subtitle": "Try following this sequence:",
+    "solution_button": "Let's Go!",
+    "help_title": "How to Play",
+    "help_step1": "<strong>1. Look at the Board:</strong> Find your piece and the target piece with the blinking circle.",
+    "help_step2": "<strong>2. Use the Arrows:</strong> Click the colored arrow buttons to build a path for your piece.",
+    "help_step3": "<strong>3. Press the Green Flag:</strong> When you're ready, press the green flag to watch your piece move!",
+    "help_step4": "<strong>4. Reach the Target:</strong> Your goal is to land on the same square as the target piece.",
+    "help_button": "Got it!"
+  },
+  "languages": {
+    "it": "Italiano",
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "uk": "Українська",
+    "zh": "中文 (简体)",
+    "fa": "Dari (Afghan)"
+  }
+}

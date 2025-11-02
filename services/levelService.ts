@@ -8,7 +8,7 @@ export interface LevelConfig {
 
 export const loadDefaultLevels = async (): Promise<LevelConfig> => {
   try {
-    const response = await fetch('/config.json');
+    const response = await fetch('./config.json');
     if (!response.ok) {
       throw new Error(`Failed to fetch config.json: ${response.statusText}`);
     }
@@ -50,6 +50,6 @@ export const calculateSolution = (level: Level): Direction[] => {
     solution.push(Direction.UP);
     dy++;
   }
-  
+
   return solution;
 };
